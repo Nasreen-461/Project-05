@@ -10,7 +10,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 export default function Home() {
-  useEffect(() =>{
+  useEffect(() => {
     AOS.init({
       easing: "ease-out-back",
       duration: 1200,
